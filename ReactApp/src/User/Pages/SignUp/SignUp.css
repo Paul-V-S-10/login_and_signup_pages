@@ -1,0 +1,111 @@
+.body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.signUp {
+    background-color: bisque;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background: rgb(239,239,239);
+        /* background: linear-gradient(to right bottom,
+                rgba(255, 255, 255, 0.4),
+                rgba(255, 255, 255, 0.2));
+        backdrop-filter: blur(1rem);
+        z-index: 1; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+        .header {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .loginQuestion {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .inputbox {
+            background-color: transparent;
+            border-bottom: 2px solid rgb(121, 121, 121);
+
+
+            .inputBox {
+                background-color: transparent;
+                width: 400px;
+                border: 0;
+                font-size: 15px;
+
+            }
+        }
+
+        .gender {
+            display: flex;
+            justify-content: flex-start;
+            /* align-items: flex-start; */
+            width: 100%;
+            gap: 30px;
+        }
+        .securityQuestion{
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+            gap: 10px;
+            .select{
+                .ddlsqn{
+                    border-radius: 50px;
+                    background-color: transparent;
+                }
+            }
+
+        }
+        .answer{
+            display: flex;
+            width: 100%;
+            justify-content: flex-start;
+            gap: 10px;
+
+            .box{
+                border-bottom: 2px solid grey;
+                .inputBox{
+                    border: 0;
+                    background-color: transparent;
+                }
+            }
+        }
+        .signupButton{
+            .signupbutton{
+                background-color: transparent;
+                border-radius: 50px;
+            }
+        }
+        .photoUpload{
+            display: flex;
+            gap: 10px;
+            justify-content: flex-start;
+            width: 100%;
+
+            .photo{
+                .photoInput{
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}

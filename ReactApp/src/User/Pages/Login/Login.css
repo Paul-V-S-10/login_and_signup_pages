@@ -1,0 +1,65 @@
+.login{
+    background-color: bisque;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    .container{
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+        background: white;
+        padding: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        .welcome{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .email,.password{
+            border-bottom: 1px solid grey;
+            /* padding-bottom: 10px; */
+            width: 400px;
+            .emailInput,.passwordInput{
+                width: 400px;
+                border: 0;
+            }
+        }
+
+        .loginb{
+            background-color: bisque;
+            width: 70%;
+            height: 5vh;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .loginButton{
+                background-color: transparent;
+                border: 0;
+            }
+            .loginButton:hover{
+                cursor: pointer;
+            }
+            
+        }
+        .loginb:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        .footer{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(255, 140, 0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+    }
+    
+}
